@@ -21,6 +21,8 @@ public class AgregarProductoInventarioController {
     public List<String> rellenarTipoProducto(){
         List<String> lista = new ArrayList<String>();
         try {
+            // Conexion con base de datos
+            //CAMBIOS
             
             String url = "jdbc:mysql://localhost/proyectobodegapoo2";
             String user = "root";
