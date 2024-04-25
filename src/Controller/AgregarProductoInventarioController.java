@@ -86,4 +86,6 @@ public class AgregarProductoInventarioController {
         }
     }
     
+    public void x(){
+}
 }
